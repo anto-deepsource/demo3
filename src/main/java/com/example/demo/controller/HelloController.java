@@ -11,6 +11,7 @@ import java.util.List;
 public class HelloController {
     @RequestMapping("/spring")
     public String helloSpring() {
+        Long bigNum = Long.valueOf(Integer.MAX_VALUE+2);
         List<String> data = null;
         if (data.size() > 0) {
             for (String value : data) {
