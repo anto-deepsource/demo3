@@ -11,6 +11,11 @@ import java.util.List;
 public class HelloController {
     @RequestMapping("/spring")
     public String helloSpring() {
+        if (true) {
+            Integer a = 0;
+        } else {
+            Integer b = 0;
+        }
         Long bigNum = Long.valueOf(Integer.MAX_VALUE+2);
         List<String> data = null;
         if (data.size() > 0) {
