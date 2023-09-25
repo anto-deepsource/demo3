@@ -11,6 +11,8 @@ import java.util.List;
 public class HelloController {
     @RequestMapping("/spring")
     public String helloSpring() {
+        Integer error = 100/0;
+        System.out.println(error);
         if (true) {
             Integer a = 0;
         } else {
